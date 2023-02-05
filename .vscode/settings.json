@@ -1,0 +1,27 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "yaml",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "cSpell.words": [
+    "bilibili",
+    "bumpp",
+    "changelogithub",
+    "ohmyfetch",
+    "pnpm",
+    "stefanzweifel"
+  ],
+  "cSpell.allowCompoundWords": true
+}

@@ -1,0 +1,20 @@
+name: Schedule
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # UTC time 00:00 every day
+    - cron: '0 0 * * *'
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v3
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: update data'
+          file_pattern: .
