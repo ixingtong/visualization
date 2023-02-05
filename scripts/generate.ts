@@ -13,8 +13,8 @@ import { fetchBilibiliRelationStat } from './fetchers'
 
 export const bilibiliScript = async () => {
   const archived = await readJSONFromData(FILE.BILIBILI)
-  const { relationStats = [] } = archived
-  const latestRelationStat = relationStats.at(-1)
+  const { relationStats: archivedRelationStats = [] } = archived
+  const latestRelationStat = archivedRelationStats.at(-1)
 
   const newRelationStat = await fetchBilibiliRelationStat(CONFIG.BILIBILI_MID)
 
@@ -22,13 +22,14 @@ export const bilibiliScript = async () => {
   const date = dayjs().format('YYYY-MM-DD')
 
   if (latestRelationStat?.date === date) {
-    return
+    archivedRelationStats.pop()
   }
+
   await writeJSONToData(FILE.BILIBILI, {
     '//': now.toString(),
     updateAt: now.getTime(),
     relationStats: [
-      ...relationStats,
+      ...archivedRelationStats,
       {
         ...newRelationStat,
         date,
