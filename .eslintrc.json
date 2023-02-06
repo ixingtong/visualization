@@ -5,6 +5,6 @@
     "@ntnyq"
   ],
   "ignorePatterns": [
-    "data/*.json"
+    "archive/*.json"
   ]
 }

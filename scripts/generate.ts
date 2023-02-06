@@ -2,8 +2,8 @@ import process from 'node:process'
 import c from 'picocolors'
 import dayjs from 'dayjs'
 import {
-  readJSONFromData,
-  writeJSONToData,
+  readJSONFromArchive,
+  writeJSONToArchive,
 } from './utils'
 import {
   CONFIG,
@@ -12,8 +12,7 @@ import {
 import { fetchBilibiliRelationStat } from './fetchers'
 
 export const bilibiliScript = async () => {
-  const archived = await readJSONFromData(FILE.BILIBILI)
-  const { relationStats: archivedRelationStats = [] } = archived
+  const { relationStats: archivedRelationStats = [] } = await readJSONFromArchive(FILE.BILIBILI)
   const latestRelationStat = archivedRelationStats.at(-1)
 
   const newRelationStat = await fetchBilibiliRelationStat(CONFIG.BILIBILI_MID)
@@ -25,7 +24,7 @@ export const bilibiliScript = async () => {
     archivedRelationStats.pop()
   }
 
-  await writeJSONToData(FILE.BILIBILI, {
+  await writeJSONToArchive(FILE.BILIBILI, {
     '//': now.toString(),
     updateAt: now.getTime(),
     relationStats: [
