@@ -1,6 +1,6 @@
 {
-  "//": "Sun Mar 26 2023 00:44:29 GMT+0000 (Coordinated Universal Time)",
-  "updateAt": 1679791469666,
+  "//": "Mon Mar 27 2023 00:40:56 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1679877656569,
   "relationStats": [
     {
       "mid": 401315430,
@@ -451,6 +451,15 @@
       "follower": 459784,
       "date": "2023-03-26",
       "ts": 1679791469666
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 460266,
+      "date": "2023-03-27",
+      "ts": 1679877656569
     }
   ]
 }
