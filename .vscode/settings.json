@@ -1,28 +1,19 @@
 {
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
   "eslint.validate": [
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact",
     "vue",
     "yaml",
     "html",
-    "markdown",
     "json",
     "jsonc",
-    "json5"
+    "json5",
+    "markdown",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
   ],
-  "[typescript]": {
-    "editor.formatOnSave": false
-  },
-  "cSpell.words": [
-    "bilibili",
-    "bumpp",
-    "changelogithub",
-    "noreply",
-    "ohmyfetch",
-    "pnpm",
-    "stefanzweifel"
-  ],
+  "cSpell.words": ["bilibili", "bumpp", "changelogithub", "noreply", "pnpm", "stefanzweifel"],
   "cSpell.allowCompoundWords": true
 }

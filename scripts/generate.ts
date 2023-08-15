@@ -1,14 +1,8 @@
 import process from 'node:process'
 import c from 'picocolors'
 import dayjs from 'dayjs'
-import {
-  readJSONFromArchive,
-  writeJSONToArchive,
-} from './utils'
-import {
-  CONFIG,
-  FILE,
-} from './constants'
+import { readJSONFromArchive, writeJSONToArchive } from './utils'
+import { CONFIG, FILE } from './constants'
 import { fetchBilibiliRelationStat } from './fetchers'
 
 export const bilibiliScript = async () => {
@@ -38,7 +32,7 @@ export const bilibiliScript = async () => {
   })
 }
 
-async function main () {
+async function main() {
   const now = new Date()
   console.log(`\nGenerator started at ${c.cyan(now.toString())}`)
 
