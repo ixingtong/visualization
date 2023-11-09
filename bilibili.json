@@ -1,0 +1,2508 @@
+{
+  "//": "Thu Nov 09 2023 00:36:53 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1699490213140,
+  "relationStats": [
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449416,
+      "date": "2023-02-05",
+      "ts": 1675614704587
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449407,
+      "date": "2023-02-06",
+      "ts": 1675668988988
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449394,
+      "date": "2023-02-07",
+      "ts": 1675730649292
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449560,
+      "date": "2023-02-08",
+      "ts": 1675817021067
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449554,
+      "date": "2023-02-09",
+      "ts": 1675903397769
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449515,
+      "date": "2023-02-10",
+      "ts": 1675990015799
+    },
+    {
+      "mid": 401315430,
+      "following": 36,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449576,
+      "date": "2023-02-11",
+      "ts": 1676075945930
+    },
+    {
+      "mid": 401315430,
+      "following": 38,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449556,
+      "date": "2023-02-12",
+      "ts": 1676162848688
+    },
+    {
+      "mid": 401315430,
+      "following": 38,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449499,
+      "date": "2023-02-13",
+      "ts": 1676249164629
+    },
+    {
+      "mid": 401315430,
+      "following": 38,
+      "whisper": 0,
+      "black": 0,
+      "follower": 449759,
+      "date": "2023-02-14",
+      "ts": 1676335525503
+    },
+    {
+      "mid": 401315430,
+      "following": 38,
+      "whisper": 0,
+      "black": 0,
+      "follower": 450846,
+      "date": "2023-02-15",
+      "ts": 1676421925390
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451585,
+      "date": "2023-02-16",
+      "ts": 1676508253925
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451647,
+      "date": "2023-02-17",
+      "ts": 1676594879879
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451831,
+      "date": "2023-02-18",
+      "ts": 1676681042797
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451871,
+      "date": "2023-02-19",
+      "ts": 1676767555340
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451960,
+      "date": "2023-02-20",
+      "ts": 1676854034898
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 451934,
+      "date": "2023-02-21",
+      "ts": 1676940414777
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 452161,
+      "date": "2023-02-22",
+      "ts": 1677026532742
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 452124,
+      "date": "2023-02-23",
+      "ts": 1677112999533
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 452112,
+      "date": "2023-02-24",
+      "ts": 1677199437189
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 452650,
+      "date": "2023-02-25",
+      "ts": 1677285912032
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 452879,
+      "date": "2023-02-26",
+      "ts": 1677372700990
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 454850,
+      "date": "2023-02-27",
+      "ts": 1677458717705
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 455427,
+      "date": "2023-02-28",
+      "ts": 1677545086892
+    },
+    {
+      "mid": 401315430,
+      "following": 39,
+      "whisper": 0,
+      "black": 0,
+      "follower": 455643,
+      "date": "2023-03-01",
+      "ts": 1677631881081
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 455848,
+      "date": "2023-03-02",
+      "ts": 1677718187717
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 455937,
+      "date": "2023-03-03",
+      "ts": 1677811056355
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456023,
+      "date": "2023-03-04",
+      "ts": 1677890610423
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456126,
+      "date": "2023-03-05",
+      "ts": 1677977534707
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456192,
+      "date": "2023-03-06",
+      "ts": 1678063538772
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456264,
+      "date": "2023-03-07",
+      "ts": 1678150193377
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456402,
+      "date": "2023-03-08",
+      "ts": 1678236417069
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456391,
+      "date": "2023-03-09",
+      "ts": 1678322949670
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456347,
+      "date": "2023-03-10",
+      "ts": 1678409152789
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456511,
+      "date": "2023-03-11",
+      "ts": 1678495193580
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456487,
+      "date": "2023-03-12",
+      "ts": 1678581938601
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456376,
+      "date": "2023-03-13",
+      "ts": 1678668213666
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456695,
+      "date": "2023-03-14",
+      "ts": 1678754318830
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456689,
+      "date": "2023-03-15",
+      "ts": 1678841032869
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456665,
+      "date": "2023-03-16",
+      "ts": 1678927561096
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456550,
+      "date": "2023-03-17",
+      "ts": 1679013815703
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 456956,
+      "date": "2023-03-18",
+      "ts": 1679100113029
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 457235,
+      "date": "2023-03-19",
+      "ts": 1679186839272
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 457401,
+      "date": "2023-03-20",
+      "ts": 1679273093983
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 457576,
+      "date": "2023-03-21",
+      "ts": 1679359249351
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 458135,
+      "date": "2023-03-22",
+      "ts": 1679445629148
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 458521,
+      "date": "2023-03-23",
+      "ts": 1679532095309
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 458479,
+      "date": "2023-03-24",
+      "ts": 1679618477682
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 458818,
+      "date": "2023-03-25",
+      "ts": 1679704832285
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 459784,
+      "date": "2023-03-26",
+      "ts": 1679791469666
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 460266,
+      "date": "2023-03-27",
+      "ts": 1679877656569
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 460862,
+      "date": "2023-03-28",
+      "ts": 1679964148270
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 461171,
+      "date": "2023-03-29",
+      "ts": 1680050811992
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 462095,
+      "date": "2023-03-30",
+      "ts": 1680136947703
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 463126,
+      "date": "2023-03-31",
+      "ts": 1680223340246
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 464014,
+      "date": "2023-04-01",
+      "ts": 1680309705570
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 464995,
+      "date": "2023-04-02",
+      "ts": 1680396183107
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 465310,
+      "date": "2023-04-03",
+      "ts": 1680482391890
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 465256,
+      "date": "2023-04-04",
+      "ts": 1680568812203
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 465336,
+      "date": "2023-04-05",
+      "ts": 1680654883461
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 465511,
+      "date": "2023-04-06",
+      "ts": 1680741529441
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 465694,
+      "date": "2023-04-07",
+      "ts": 1680827743979
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 466156,
+      "date": "2023-04-08",
+      "ts": 1680914267031
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 466702,
+      "date": "2023-04-09",
+      "ts": 1681000882058
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 466961,
+      "date": "2023-04-10",
+      "ts": 1681087189133
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 468133,
+      "date": "2023-04-11",
+      "ts": 1681173640950
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 469163,
+      "date": "2023-04-12",
+      "ts": 1681259954345
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 470061,
+      "date": "2023-04-13",
+      "ts": 1681346308825
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 470408,
+      "date": "2023-04-14",
+      "ts": 1681432725858
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 471043,
+      "date": "2023-04-15",
+      "ts": 1681519324905
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 471531,
+      "date": "2023-04-16",
+      "ts": 1681605703625
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 472056,
+      "date": "2023-04-17",
+      "ts": 1681692043468
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 472538,
+      "date": "2023-04-18",
+      "ts": 1681778327580
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 473234,
+      "date": "2023-04-19",
+      "ts": 1681864899862
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 473460,
+      "date": "2023-04-20",
+      "ts": 1681951158146
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 473494,
+      "date": "2023-04-21",
+      "ts": 1682037557414
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 474276,
+      "date": "2023-04-22",
+      "ts": 1682123975593
+    },
+    {
+      "mid": 401315430,
+      "following": 41,
+      "whisper": 0,
+      "black": 0,
+      "follower": 474309,
+      "date": "2023-04-23",
+      "ts": 1682210640345
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 474135,
+      "date": "2023-04-24",
+      "ts": 1682296873537
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 474915,
+      "date": "2023-04-25",
+      "ts": 1682383255994
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 476993,
+      "date": "2023-04-26",
+      "ts": 1682469624792
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 477931,
+      "date": "2023-04-27",
+      "ts": 1682556152189
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 478119,
+      "date": "2023-04-28",
+      "ts": 1682642510881
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 478569,
+      "date": "2023-04-29",
+      "ts": 1682728758580
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 482599,
+      "date": "2023-04-30",
+      "ts": 1682815409945
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 483638,
+      "date": "2023-05-01",
+      "ts": 1682901744140
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 484162,
+      "date": "2023-05-02",
+      "ts": 1682988038632
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 484425,
+      "date": "2023-05-03",
+      "ts": 1683074402275
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 484834,
+      "date": "2023-05-04",
+      "ts": 1683160802039
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 485516,
+      "date": "2023-05-05",
+      "ts": 1683247059615
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 485656,
+      "date": "2023-05-06",
+      "ts": 1683333461902
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 485685,
+      "date": "2023-05-07",
+      "ts": 1683420156290
+    },
+    {
+      "mid": 401315430,
+      "following": 42,
+      "whisper": 0,
+      "black": 0,
+      "follower": 485798,
+      "date": "2023-05-08",
+      "ts": 1683506359613
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 486207,
+      "date": "2023-05-09",
+      "ts": 1683592880084
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 486337,
+      "date": "2023-05-10",
+      "ts": 1683679201786
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 486639,
+      "date": "2023-05-11",
+      "ts": 1683765614227
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 486727,
+      "date": "2023-05-12",
+      "ts": 1683852006050
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 486886,
+      "date": "2023-05-13",
+      "ts": 1683938283921
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 487829,
+      "date": "2023-05-14",
+      "ts": 1684024963330
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 489136,
+      "date": "2023-05-15",
+      "ts": 1684111305056
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 490327,
+      "date": "2023-05-16",
+      "ts": 1684197656277
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 491394,
+      "date": "2023-05-17",
+      "ts": 1684284197628
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 491722,
+      "date": "2023-05-18",
+      "ts": 1684370395151
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 491822,
+      "date": "2023-05-19",
+      "ts": 1684456848674
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 492565,
+      "date": "2023-05-20",
+      "ts": 1684543118013
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 493212,
+      "date": "2023-05-21",
+      "ts": 1684629817873
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 493954,
+      "date": "2023-05-22",
+      "ts": 1684716181232
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 494902,
+      "date": "2023-05-23",
+      "ts": 1684802509958
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 496050,
+      "date": "2023-05-24",
+      "ts": 1684888893940
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 497705,
+      "date": "2023-05-25",
+      "ts": 1684975217541
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 499074,
+      "date": "2023-05-26",
+      "ts": 1685061664977
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 501198,
+      "date": "2023-05-27",
+      "ts": 1685148135824
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 506949,
+      "date": "2023-05-28",
+      "ts": 1685234669042
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 510886,
+      "date": "2023-05-29",
+      "ts": 1685320966050
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 514126,
+      "date": "2023-05-30",
+      "ts": 1685407364794
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 516563,
+      "date": "2023-05-31",
+      "ts": 1685494004012
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 517800,
+      "date": "2023-06-01",
+      "ts": 1685581033099
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 520761,
+      "date": "2023-06-02",
+      "ts": 1685666846570
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 523634,
+      "date": "2023-06-03",
+      "ts": 1685753092122
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 525614,
+      "date": "2023-06-04",
+      "ts": 1685840096823
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 527691,
+      "date": "2023-06-05",
+      "ts": 1685926147386
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 529309,
+      "date": "2023-06-06",
+      "ts": 1686012437819
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 529841,
+      "date": "2023-06-07",
+      "ts": 1686098968213
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 530371,
+      "date": "2023-06-08",
+      "ts": 1686185239974
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 531326,
+      "date": "2023-06-09",
+      "ts": 1686271779586
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 532376,
+      "date": "2023-06-10",
+      "ts": 1686357834792
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 533105,
+      "date": "2023-06-11",
+      "ts": 1686444735754
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 533810,
+      "date": "2023-06-12",
+      "ts": 1686531010642
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 534336,
+      "date": "2023-06-13",
+      "ts": 1686617185164
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 534565,
+      "date": "2023-06-14",
+      "ts": 1686703462332
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 535079,
+      "date": "2023-06-15",
+      "ts": 1686789940063
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 535418,
+      "date": "2023-06-16",
+      "ts": 1686876402835
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 536988,
+      "date": "2023-06-17",
+      "ts": 1686962568241
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 537676,
+      "date": "2023-06-18",
+      "ts": 1687049526772
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 538282,
+      "date": "2023-06-19",
+      "ts": 1687135552646
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 539226,
+      "date": "2023-06-20",
+      "ts": 1687221842232
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 539720,
+      "date": "2023-06-21",
+      "ts": 1687308422433
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540057,
+      "date": "2023-06-22",
+      "ts": 1687394786101
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540275,
+      "date": "2023-06-23",
+      "ts": 1687481533369
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540405,
+      "date": "2023-06-24",
+      "ts": 1687567897234
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540459,
+      "date": "2023-06-25",
+      "ts": 1687654599511
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540544,
+      "date": "2023-06-26",
+      "ts": 1687740863574
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 540845,
+      "date": "2023-06-27",
+      "ts": 1687827181999
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 542732,
+      "date": "2023-06-28",
+      "ts": 1687913677960
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 545695,
+      "date": "2023-06-29",
+      "ts": 1687999886074
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 547870,
+      "date": "2023-06-30",
+      "ts": 1688086150664
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 548755,
+      "date": "2023-07-01",
+      "ts": 1688173024137
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 551558,
+      "date": "2023-07-02",
+      "ts": 1688259300661
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 552567,
+      "date": "2023-07-03",
+      "ts": 1688345565887
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 556742,
+      "date": "2023-07-04",
+      "ts": 1688432041702
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 557007,
+      "date": "2023-07-05",
+      "ts": 1688518431212
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 557229,
+      "date": "2023-07-06",
+      "ts": 1688604876947
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 558978,
+      "date": "2023-07-07",
+      "ts": 1688691263288
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 561630,
+      "date": "2023-07-08",
+      "ts": 1688777670980
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 562022,
+      "date": "2023-07-09",
+      "ts": 1688864199530
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 562299,
+      "date": "2023-07-10",
+      "ts": 1688950372338
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 562484,
+      "date": "2023-07-11",
+      "ts": 1689036330999
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 562698,
+      "date": "2023-07-12",
+      "ts": 1689123168168
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 562840,
+      "date": "2023-07-13",
+      "ts": 1689209629743
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 563198,
+      "date": "2023-07-14",
+      "ts": 1689295995036
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 564450,
+      "date": "2023-07-15",
+      "ts": 1689382301633
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 564717,
+      "date": "2023-07-16",
+      "ts": 1689469077157
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 565780,
+      "date": "2023-07-17",
+      "ts": 1689555342383
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 566664,
+      "date": "2023-07-18",
+      "ts": 1689642600411
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 567214,
+      "date": "2023-07-19",
+      "ts": 1689729715951
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 571220,
+      "date": "2023-07-20",
+      "ts": 1689813997850
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 571890,
+      "date": "2023-07-21",
+      "ts": 1689900271516
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 572284,
+      "date": "2023-07-22",
+      "ts": 1689986677079
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 572854,
+      "date": "2023-07-23",
+      "ts": 1690073296582
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 572984,
+      "date": "2023-07-24",
+      "ts": 1690159510260
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 573284,
+      "date": "2023-07-25",
+      "ts": 1690246174588
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 573888,
+      "date": "2023-07-26",
+      "ts": 1690332226151
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 576092,
+      "date": "2023-07-27",
+      "ts": 1690418439418
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 578720,
+      "date": "2023-07-28",
+      "ts": 1690504847951
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 581174,
+      "date": "2023-07-29",
+      "ts": 1690591313963
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 582887,
+      "date": "2023-07-30",
+      "ts": 1690677897787
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 583876,
+      "date": "2023-07-31",
+      "ts": 1690764337778
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 584735,
+      "date": "2023-08-01",
+      "ts": 1690850902176
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 585532,
+      "date": "2023-08-02",
+      "ts": 1690936929522
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 586900,
+      "date": "2023-08-03",
+      "ts": 1691023396614
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 588221,
+      "date": "2023-08-04",
+      "ts": 1691109781093
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 588565,
+      "date": "2023-08-05",
+      "ts": 1691196106942
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 590527,
+      "date": "2023-08-06",
+      "ts": 1691282339783
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 590649,
+      "date": "2023-08-07",
+      "ts": 1691368985902
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 591271,
+      "date": "2023-08-08",
+      "ts": 1691455299758
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 591916,
+      "date": "2023-08-09",
+      "ts": 1691541772754
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 592847,
+      "date": "2023-08-10",
+      "ts": 1691628256755
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 593562,
+      "date": "2023-08-11",
+      "ts": 1691714040609
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 594586,
+      "date": "2023-08-12",
+      "ts": 1691800394241
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 595161,
+      "date": "2023-08-13",
+      "ts": 1691886980164
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 596475,
+      "date": "2023-08-14",
+      "ts": 1691973337069
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 598257,
+      "date": "2023-08-15",
+      "ts": 1692059669260
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 599672,
+      "date": "2023-08-16",
+      "ts": 1692146070021
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 600706,
+      "date": "2023-08-17",
+      "ts": 1692232425003
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 601880,
+      "date": "2023-08-18",
+      "ts": 1692318849300
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 602278,
+      "date": "2023-08-19",
+      "ts": 1692405165955
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 602982,
+      "date": "2023-08-20",
+      "ts": 1692491781181
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 604302,
+      "date": "2023-08-21",
+      "ts": 1692578093903
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 605931,
+      "date": "2023-08-22",
+      "ts": 1692664492387
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 606995,
+      "date": "2023-08-23",
+      "ts": 1692750872401
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 607033,
+      "date": "2023-08-24",
+      "ts": 1692837265377
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 608182,
+      "date": "2023-08-25",
+      "ts": 1692923711157
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 608552,
+      "date": "2023-08-26",
+      "ts": 1693010010466
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 609957,
+      "date": "2023-08-27",
+      "ts": 1693096626663
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 611164,
+      "date": "2023-08-28",
+      "ts": 1693182957709
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 611614,
+      "date": "2023-08-29",
+      "ts": 1693269327834
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612055,
+      "date": "2023-08-30",
+      "ts": 1693355719593
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612057,
+      "date": "2023-08-31",
+      "ts": 1693442135559
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 611999,
+      "date": "2023-09-01",
+      "ts": 1693528677785
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 611982,
+      "date": "2023-09-02",
+      "ts": 1693614839820
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612461,
+      "date": "2023-09-03",
+      "ts": 1693701466140
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612461,
+      "date": "2023-09-04",
+      "ts": 1693787774129
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612460,
+      "date": "2023-09-05",
+      "ts": 1693874104657
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612509,
+      "date": "2023-09-06",
+      "ts": 1693960543398
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612471,
+      "date": "2023-09-07",
+      "ts": 1694046901462
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612709,
+      "date": "2023-09-08",
+      "ts": 1694133318659
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 612911,
+      "date": "2023-09-09",
+      "ts": 1694219673361
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613634,
+      "date": "2023-09-10",
+      "ts": 1694306261875
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613632,
+      "date": "2023-09-11",
+      "ts": 1694392563675
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613606,
+      "date": "2023-09-12",
+      "ts": 1694478852686
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613600,
+      "date": "2023-09-13",
+      "ts": 1694565350098
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613580,
+      "date": "2023-09-14",
+      "ts": 1694651732424
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613506,
+      "date": "2023-09-15",
+      "ts": 1694738169181
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613488,
+      "date": "2023-09-16",
+      "ts": 1694824487235
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 613942,
+      "date": "2023-09-17",
+      "ts": 1694911080816
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 614303,
+      "date": "2023-09-18",
+      "ts": 1694997373035
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 614548,
+      "date": "2023-09-19",
+      "ts": 1695083771291
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 614996,
+      "date": "2023-09-20",
+      "ts": 1695170150939
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 616042,
+      "date": "2023-09-21",
+      "ts": 1695256552668
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 616782,
+      "date": "2023-09-22",
+      "ts": 1695342966738
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 617263,
+      "date": "2023-09-23",
+      "ts": 1695429278583
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 617495,
+      "date": "2023-09-24",
+      "ts": 1695515891972
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 617968,
+      "date": "2023-09-25",
+      "ts": 1695602190227
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 618120,
+      "date": "2023-09-26",
+      "ts": 1695688606093
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 618147,
+      "date": "2023-09-27",
+      "ts": 1695775003178
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 618107,
+      "date": "2023-09-28",
+      "ts": 1695861375380
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 618210,
+      "date": "2023-09-29",
+      "ts": 1695947787222
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 618218,
+      "date": "2023-09-30",
+      "ts": 1696034112701
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 619012,
+      "date": "2023-10-01",
+      "ts": 1696120886786
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 619530,
+      "date": "2023-10-02",
+      "ts": 1696207003810
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 619715,
+      "date": "2023-10-03",
+      "ts": 1696293409369
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 620001,
+      "date": "2023-10-04",
+      "ts": 1696379817099
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 620309,
+      "date": "2023-10-05",
+      "ts": 1696466176581
+    },
+    {
+      "mid": 401315430,
+      "following": 43,
+      "whisper": 0,
+      "black": 0,
+      "follower": 620651,
+      "date": "2023-10-06",
+      "ts": 1696552577343
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 621040,
+      "date": "2023-10-07",
+      "ts": 1696638949285
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 621275,
+      "date": "2023-10-08",
+      "ts": 1696725542087
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 622019,
+      "date": "2023-10-09",
+      "ts": 1696811812382
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 622107,
+      "date": "2023-10-10",
+      "ts": 1696898164725
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 622337,
+      "date": "2023-10-11",
+      "ts": 1696984571042
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 622930,
+      "date": "2023-10-12",
+      "ts": 1697070859470
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 623297,
+      "date": "2023-10-13",
+      "ts": 1697157441898
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 624026,
+      "date": "2023-10-14",
+      "ts": 1697243706757
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 624078,
+      "date": "2023-10-15",
+      "ts": 1697330349257
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 624200,
+      "date": "2023-10-16",
+      "ts": 1697416641237
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 624440,
+      "date": "2023-10-17",
+      "ts": 1697503011146
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 624952,
+      "date": "2023-10-18",
+      "ts": 1697589406844
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 625147,
+      "date": "2023-10-19",
+      "ts": 1697675787447
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 625263,
+      "date": "2023-10-20",
+      "ts": 1697762194121
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 625339,
+      "date": "2023-10-21",
+      "ts": 1697848524699
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 625373,
+      "date": "2023-10-22",
+      "ts": 1697935144927
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 625445,
+      "date": "2023-10-23",
+      "ts": 1698021408496
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 626202,
+      "date": "2023-10-24",
+      "ts": 1698107791195
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 627066,
+      "date": "2023-10-25",
+      "ts": 1698194158098
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 627183,
+      "date": "2023-10-26",
+      "ts": 1698280537936
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 627948,
+      "date": "2023-10-27",
+      "ts": 1698366955854
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 628807,
+      "date": "2023-10-28",
+      "ts": 1698453315140
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 630871,
+      "date": "2023-10-29",
+      "ts": 1698539923084
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 635836,
+      "date": "2023-10-30",
+      "ts": 1698626217070
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 636717,
+      "date": "2023-10-31",
+      "ts": 1698712606947
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 639293,
+      "date": "2023-11-01",
+      "ts": 1698799146769
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 643735,
+      "date": "2023-11-02",
+      "ts": 1698885389936
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 646713,
+      "date": "2023-11-03",
+      "ts": 1698971824855
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 649394,
+      "date": "2023-11-04",
+      "ts": 1699058164182
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 651117,
+      "date": "2023-11-05",
+      "ts": 1699144797932
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 651597,
+      "date": "2023-11-06",
+      "ts": 1699231068007
+    },
+    {
+      "mid": 401315430,
+      "following": 44,
+      "whisper": 0,
+      "black": 0,
+      "follower": 652837,
+      "date": "2023-11-07",
+      "ts": 1699317441919
+    },
+    {
+      "mid": 401315430,
+      "following": 45,
+      "whisper": 0,
+      "black": 0,
+      "follower": 653393,
+      "date": "2023-11-08",
+      "ts": 1699403819551
+    },
+    {
+      "mid": 401315430,
+      "following": 45,
+      "whisper": 0,
+      "black": 0,
+      "follower": 654865,
+      "date": "2023-11-09",
+      "ts": 1699490213140
+    }
+  ]
+}
