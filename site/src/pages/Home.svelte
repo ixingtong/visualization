@@ -31,20 +31,22 @@
 </script>
 
 <div class="h-screen w-screen">
-  <div class="absolute top-4 left-4 font-mono flex items-end">
-    <h1 class="text-3xl mr-2">
-      <a class="hover:color-indigo" href="https://space.bilibili.com/401315430" target="_blank">XingTong</a>
-    </h1>
-    <p class="text-lg text-gray-500">bilibili followers trend</p>
+  <div class="absolute top-0 left-0 right-0 p-4 font-mono md:flex justify-between items-center">
+    <div class="md:flex items-end">
+      <h1 class="text-3xl mr-2">
+        <a class="hover:color-indigo" href="https://space.bilibili.com/401315430"   target="_blank">XingTong</a>
+      </h1>
+      <p class="text-lg text-gray-500 mt-2 md:mt-0">bilibili followers trend</p>
+    </div>
+    <div class="mt-3 md:mt-0">
+      <span class="text-gray-400 mr-1">Last update: </span>
+      <span class="text-gray-600">
+        <a class="hover:color-indigo" href="https://github.com/ixingtong/visualization/blob/main/archive/bilibili.json" target="_blank">{ updateAt }</a>
+      </span>
+    </div>
   </div>
-  <p class="absolute top-4 right-4">
-    <span class="text-gray-400 mr-1">Last update: </span>
-    <span class="text-gray-600">
-      <a class="hover:color-indigo" href="https://github.com/ixingtong/visualization/blob/main/archive/bilibili.json" target="_blank">{ updateAt }</a>
-    </span>
-  </p>
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <div class="w-800px">
+    <div class="!md:w-[800px] w-screen overflow-auto">
       <LinkedLabel linked="bilibili" />
       <LinkedChart
         { labels }
