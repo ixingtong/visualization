@@ -26,3 +26,21 @@ jobs:
           commit_options: --no-verify --signoff
           file_pattern: .
           commit_author: Author <actions@github.com>
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: lts/*
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build:site
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site/dist

@@ -1,11 +1,12 @@
 import process from 'node:process'
+import fs from 'node:fs/promises'
 import c from 'picocolors'
 import dayjs from 'dayjs'
-import { readJSONFromArchive, writeJSONToArchive } from './utils'
+import { readJSONFromArchive, resolve, writeJSONToArchive } from './utils'
 import { CONFIG, FILE } from './constants'
 import { fetchBilibiliRelationStat } from './fetchers'
 
-export const bilibiliScript = async () => {
+export async function bilibiliScript() {
   const { relationStats: archivedRelationStats = [] } = await readJSONFromArchive(FILE.BILIBILI)
   const latestRelationStat = archivedRelationStats.at(-1)
 
@@ -32,11 +33,17 @@ export const bilibiliScript = async () => {
   })
 }
 
+export async function syncArchive() {
+  await fs.copyFile(resolve(`archive/${FILE.BILIBILI}`), resolve(`site/public/${FILE.BILIBILI}`))
+}
+
 async function main() {
   const now = new Date()
   console.log(`\nGenerator started at ${c.cyan(now.toString())}`)
 
   await bilibiliScript()
+
+  await syncArchive()
 
   console.log(c.green(`\nGenerated successfully!`))
 }
