@@ -1,6 +1,6 @@
 {
-  "//": "Fri Feb 02 2024 00:37:03 GMT+0000 (Coordinated Universal Time)",
-  "updateAt": 1706834223723,
+  "//": "Sat Feb 03 2024 00:36:32 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1706920592186,
   "relationStats": [
     {
       "mid": 401315430,
@@ -3268,6 +3268,15 @@
       "follower": 691308,
       "date": "2024-02-02",
       "ts": 1706834223723
+    },
+    {
+      "mid": 401315430,
+      "following": 45,
+      "whisper": 0,
+      "black": 0,
+      "follower": 691249,
+      "date": "2024-02-03",
+      "ts": 1706920592186
     }
   ]
 }
