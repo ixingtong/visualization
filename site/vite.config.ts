@@ -19,11 +19,9 @@ export default defineConfig({
       manifest: {
         name: 'IXingTong',
         short_name: 'IXingTong',
+        theme_color: '#818cf8',
       },
       registerType: 'autoUpdate',
-      devOptions: {
-        enabled: true,
-      },
     }),
   ],
 })

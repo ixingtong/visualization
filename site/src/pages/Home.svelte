@@ -56,7 +56,7 @@
         height="{100}"
         barMinWidth="{5}"
         fadeOpacity="{0.3}"
-        fill="rgb(255, 0, 0)"
+        fill="#818cf8"
         valueAppend="followers"
         valuePosition="floating"
         linked="bilibili"
