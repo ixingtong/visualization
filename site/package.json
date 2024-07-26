@@ -8,15 +8,15 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.5",
+    "@unocss/reset": "^0.61.5",
     "svelte-tiny-linked-charts": "^1.6.0"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.0.2",
-    "@tsconfig/svelte": "^5.0.2",
-    "svelte": "^4.2.12",
-    "unocss": "^0.58.5",
-    "vite": "^5.1.5",
-    "vite-plugin-pwa": "^0.19.2"
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^4.2.18",
+    "unocss": "^0.61.5",
+    "vite": "^5.3.5",
+    "vite-plugin-pwa": "^0.20.1"
   }
 }
