@@ -1,6 +1,6 @@
 {
-  "//": "Fri Jul 26 2024 21:55:53 GMT+0800 (China Standard Time)",
-  "updateAt": 1722002153132,
+  "//": "Sat Jul 27 2024 00:42:27 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1722040947810,
   "relationStats": [
     {
       "mid": 401315430,
@@ -4843,6 +4843,15 @@
       "follower": 900871,
       "date": "2024-07-26",
       "ts": 1722002153132
+    },
+    {
+      "mid": 401315430,
+      "following": 51,
+      "whisper": 0,
+      "black": 0,
+      "follower": 900934,
+      "date": "2024-07-27",
+      "ts": 1722040947810
     }
   ]
 }
