@@ -1,16 +1,18 @@
+import { copyFile } from 'node:fs/promises'
 import process from 'node:process'
-import fs from 'node:fs/promises'
-import c from 'picocolors'
+import { consola } from 'consola'
 import dayjs from 'dayjs'
-import { readJSONFromArchive, resolve, writeJSONToArchive } from './utils'
+import pc from 'picocolors'
 import { CONFIG, FILE } from './constants'
-import { fetchBilibiliRelationStat } from './fetchers'
+import { createBilibiliApi } from './fetchers'
+import { readJSONFromArchive, resolve, writeJSONToArchive } from './utils'
 
 export async function bilibiliScript() {
   const { relationStats: archivedRelationStats = [] } = await readJSONFromArchive(FILE.BILIBILI)
   const latestRelationStat = archivedRelationStats.at(-1)
 
-  const newRelationStat = await fetchBilibiliRelationStat(CONFIG.BILIBILI_MID)
+  const bilibiliApi = createBilibiliApi()
+  const newRelationStat = await bilibiliApi.getRelationStat(CONFIG.BILIBILI_MID)
 
   const now = new Date()
   const date = dayjs().format('YYYY-MM-DD')
@@ -34,23 +36,23 @@ export async function bilibiliScript() {
 }
 
 export async function syncArchive() {
-  await fs.copyFile(resolve(`archive/${FILE.BILIBILI}`), resolve(`site/public/${FILE.BILIBILI}`))
+  await copyFile(resolve(`archive/${FILE.BILIBILI}`), resolve(`site/public/${FILE.BILIBILI}`))
 }
 
 async function main() {
   const now = new Date()
-  console.log(`\nGenerator started at ${c.cyan(now.toString())}`)
+  consola.success(`Generator started at ${pc.cyan(now.toString())}`)
 
   await bilibiliScript()
 
   await syncArchive()
 
-  console.log(c.green(`\nGenerated successfully!`))
+  consola.success(pc.green(`Generated successfully!`))
 }
 
 try {
   main()
 } catch (err) {
-  console.log(c.red(`Ops, something is wrong!`), err)
+  consola.error(pc.red(`Ops, something is wrong!`), err)
   process.exit(1)
 }

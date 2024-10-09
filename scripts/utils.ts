@@ -1,6 +1,6 @@
+import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { URL, fileURLToPath } from 'node:url'
-import fs from 'fs-extra'
+import { fileURLToPath, URL } from 'node:url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
@@ -11,17 +11,29 @@ export function jsonStringify(data: any) {
 }
 
 export async function readFileFromArchive(filename: string) {
-  return await fs.readFile(resolve('archive', filename), 'utf8')
+  return await readFile(resolve('archive', filename), 'utf8')
+}
+
+export async function exists(path: string) {
+  try {
+    await access(path)
+    return true
+  } catch {
+    return false
+  }
 }
 
 export async function readJSONFromArchive(filename: string) {
-  if (!(await fs.exists(resolve('archive', filename)))) return {}
+  if (!(await exists(resolve('archive', filename)))) return {}
   return JSON.parse(await readFileFromArchive(filename))
 }
 
 export async function writeFileToArchive(filename: string, fileContent: string) {
-  await fs.ensureDir(resolve('archive'))
-  await fs.writeFile(resolve('archive', filename), fileContent)
+  // Create archive directory if it doesn't exist yet.
+  if (!(await exists(resolve('archive')))) {
+    await mkdir(resolve('archive'))
+  }
+  await writeFile(resolve('archive', filename), fileContent)
 }
 
 export async function writeJSONToArchive(filename: string, data: any) {

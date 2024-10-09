@@ -21,7 +21,9 @@
     "noreply",
     "ofetch",
     "pnpm",
-    "stefanzweifel"
+    "stefanzweifel",
+    "tseslint",
+    "vmid"
   ],
   "cSpell.allowCompoundWords": true
 }
