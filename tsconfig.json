@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2021",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "types": ["node"],
@@ -9,7 +9,5 @@
     "esModuleInterop": true,
     "strict": true,
     "skipLibCheck": true
-  },
-  "include": ["./scripts"],
-  "exclude": ["node_modules"]
+  }
 }

@@ -1,6 +1,6 @@
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { svelte as Svelte } from '@sveltejs/vite-plugin-svelte'
 import { presetIcons, presetUno } from 'unocss'
-import unoCSS from 'unocss/vite'
+import UnoCSS from 'unocss/vite'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
@@ -11,8 +11,8 @@ export default defineConfig({
   },
 
   plugins: [
-    svelte(),
-    unoCSS({
+    Svelte(),
+    UnoCSS({
       presets: [presetUno(), presetIcons()],
     }),
     VitePWA({
