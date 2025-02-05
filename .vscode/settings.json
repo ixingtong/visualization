@@ -1,13 +1,15 @@
 {
+  "eslint.enable": true,
   "prettier.enable": true,
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.validate": [
     "vue",
     "yaml",
-    "html",
     "json",
     "jsonc",
     "json5",
+    "svelte",
     "markdown",
     "javascript",
     "typescript",

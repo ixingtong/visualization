@@ -3,16 +3,16 @@
  */
 
 export interface BilibiliRelationStat {
-  mid: number
-  following: number
-  whisper: number
   black: number
   follower: number
+  following: number
+  mid: number
+  whisper: number
 }
 
 export interface BilibiliResponse<T = any> {
   code: string
+  data: T
   message: string
   ttl: number
-  data: T
 }
