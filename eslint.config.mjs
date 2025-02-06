@@ -7,6 +7,7 @@ import * as parserSvelte from 'svelte-eslint-parser'
 export default defineESLintConfig(
   {
     ignores: ['**/archive/*.json'],
+    unocss: true,
   },
   {
     name: 'ntnyq/svelte/setup',

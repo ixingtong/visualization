@@ -7,13 +7,13 @@
   "description": "__TODO__",
   "keywords": [],
   "scripts": {
-    "build:site": "pnpm -C site run build",
-    "dev:site": "pnpm -C site run dev",
     "gen:bilibili": "tsx scripts/generate.ts",
     "generate": "run-p gen:*",
     "lint": "eslint .",
     "prepare": "husky",
     "release": "bumpp",
+    "site:build": "pnpm -C site run build",
+    "site:dev": "pnpm -C site run dev",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

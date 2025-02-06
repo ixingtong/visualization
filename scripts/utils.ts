@@ -6,8 +6,12 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 export const resolve = (...args: string[]) => path.resolve(__dirname, '..', ...args)
 
-export function jsonStringify(data: any) {
-  return JSON.stringify(data, null, 2)
+interface JSONStringifyOptions {
+  replacer?: (string | number)[] | null
+  spacer?: string | number
+}
+export function jsonStringify<T = any>(data: T, options: JSONStringifyOptions = {}) {
+  return JSON.stringify(data, options.replacer || null, options.spacer || 2)
 }
 
 export async function readFileFromArchive(filename: string) {
@@ -36,6 +40,10 @@ export async function writeFileToArchive(filename: string, fileContent: string) 
   await writeFile(resolve('archive', filename), fileContent)
 }
 
-export async function writeJSONToArchive(filename: string, data: any) {
-  await writeFileToArchive(filename, jsonStringify(data))
+export async function writeJSONToArchive(
+  filename: string,
+  data: any,
+  options: JSONStringifyOptions = {},
+) {
+  await writeFileToArchive(filename, jsonStringify(data, options))
 }

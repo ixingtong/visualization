@@ -11,6 +11,7 @@ export const DEFAULT_BILIBILI_OPTIONS: BilibiliApiOptions = {
 export class BilibiliApi {
   #fetch: $Fetch
   #options: BilibiliApiOptions
+
   constructor(options: BilibiliApiOptions = {}) {
     this.#options = { ...DEFAULT_BILIBILI_OPTIONS, ...options }
     this.#fetch = ofetch.create(this.#options)
