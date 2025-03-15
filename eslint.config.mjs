@@ -1,6 +1,10 @@
 // @ts-check
 
-import { defineESLintConfig, GLOB_SVELTE, parserTypeScript } from '@ntnyq/eslint-config'
+import {
+  defineESLintConfig,
+  GLOB_SVELTE,
+  parserTypeScript,
+} from '@ntnyq/eslint-config'
 import pluginSvelte from 'eslint-plugin-svelte'
 import * as parserSvelte from 'svelte-eslint-parser'
 

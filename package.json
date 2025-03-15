@@ -3,13 +3,13 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.2.0",
+  "packageManager": "pnpm@10.6.3",
   "description": "__TODO__",
   "keywords": [],
   "scripts": {
     "gen:bilibili": "tsx scripts/generate.ts",
     "generate": "run-p gen:*",
-    "lint": "eslint .",
+    "lint": "eslint",
     "prepare": "husky",
     "release": "bumpp",
     "site:build": "pnpm -C site run build",
@@ -17,26 +17,28 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^4.0.0-beta.1",
-    "@ntnyq/prettier-config": "^1.22.1",
-    "@types/node": "^22.13.1",
-    "bumpp": "^10.0.2",
+    "@ntnyq/eslint-config": "^4.0.2",
+    "@ntnyq/prettier-config": "^2.0.0",
+    "@types/node": "^22.13.10",
+    "bumpp": "^10.1.0",
     "consola": "^3.4.0",
     "dayjs": "^1.11.13",
-    "eslint": "^9.19.0",
-    "eslint-plugin-svelte": "^2.46.1",
+    "eslint": "^9.22.0",
+    "eslint-plugin-svelte": "^3.1.0",
     "husky": "^9.1.7",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^7.0.2",
     "ofetch": "^1.4.1",
     "picocolors": "^1.1.1",
-    "prettier": "^3.4.2",
-    "svelte-eslint-parser": "^0.43.0",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "prettier": "^3.5.3",
+    "svelte-eslint-parser": "^1.0.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "workbox-build": "^7.3.0",
+    "workbox-window": "^7.3.0"
   },
   "nano-staged": {
-    "*.{js,ts,cjs,mjs,svelte,vue,json,yaml,yml,md}": "eslint --fix",
+    "*.{js,ts,cjs,mjs,md,vue,yml,yaml,json,svelte}": "eslint --fix",
     "*.{css,scss,html}": "prettier -uw"
   }
 }

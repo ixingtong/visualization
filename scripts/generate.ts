@@ -8,7 +8,8 @@ import { createBilibiliApi } from './fetchers'
 import { readJSONFromArchive, resolve, writeJSONToArchive } from './utils'
 
 export async function bilibiliScript() {
-  const { relationStats: archivedRelationStats = [] } = await readJSONFromArchive(FILE.BILIBILI)
+  const { relationStats: archivedRelationStats = [] } =
+    await readJSONFromArchive(FILE.BILIBILI)
   const latestRelationStat = archivedRelationStats.at(-1)
 
   const bilibiliApi = createBilibiliApi()
@@ -36,7 +37,10 @@ export async function bilibiliScript() {
 }
 
 export async function syncArchive() {
-  await copyFile(resolve(`archive/${FILE.BILIBILI}`), resolve(`site/public/${FILE.BILIBILI}`))
+  await copyFile(
+    resolve(`archive/${FILE.BILIBILI}`),
+    resolve(`site/public/${FILE.BILIBILI}`),
+  )
 }
 
 async function main() {

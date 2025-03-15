@@ -4,13 +4,17 @@ import { fileURLToPath, URL } from 'node:url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
-export const resolve = (...args: string[]) => path.resolve(__dirname, '..', ...args)
+export const resolve = (...args: string[]) =>
+  path.resolve(__dirname, '..', ...args)
 
 interface JSONStringifyOptions {
   replacer?: (string | number)[] | null
   spacer?: string | number
 }
-export function jsonStringify<T = any>(data: T, options: JSONStringifyOptions = {}) {
+export function jsonStringify<T = any>(
+  data: T,
+  options: JSONStringifyOptions = {},
+) {
   return JSON.stringify(data, options.replacer || null, options.spacer || 2)
 }
 
@@ -32,7 +36,10 @@ export async function readJSONFromArchive(filename: string) {
   return JSON.parse(await readFileFromArchive(filename))
 }
 
-export async function writeFileToArchive(filename: string, fileContent: string) {
+export async function writeFileToArchive(
+  filename: string,
+  fileContent: string,
+) {
   // Create archive directory if it doesn't exist yet.
   if (!(await exists(resolve('archive')))) {
     await mkdir(resolve('archive'))

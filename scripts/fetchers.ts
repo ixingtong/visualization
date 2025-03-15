@@ -29,4 +29,5 @@ export class BilibiliApi {
   }
 }
 
-export const createBilibiliApi = (options: BilibiliApiOptions = {}) => new BilibiliApi(options)
+export const createBilibiliApi = (options: BilibiliApiOptions = {}) =>
+  new BilibiliApi(options)
