@@ -12,7 +12,9 @@ export default defineConfig({
   plugins: [
     Svelte(),
 
-    UnoCSS(),
+    UnoCSS({
+      inspector: false,
+    }),
 
     VitePWA({
       registerType: 'autoUpdate',

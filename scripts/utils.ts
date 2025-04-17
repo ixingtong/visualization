@@ -4,8 +4,24 @@ import { fileURLToPath, URL } from 'node:url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
+/**
+ * Resolve a path relative to the current directory
+ * @param args - The path segments to resolve
+ * @returns The resolved path
+ */
 export const resolve = (...args: string[]) =>
   path.resolve(__dirname, '..', ...args)
+
+/**
+ * Check if a file or directory exists
+ * @param path - The path to check
+ * @returns A promise that resolves to true if the file or directory exists, false otherwise
+ */
+export async function exists(path: string) {
+  return access(path)
+    .then(() => true)
+    .catch(() => false)
+}
 
 interface JSONStringifyOptions {
   replacer?: (string | number)[] | null
@@ -18,39 +34,32 @@ export function jsonStringify<T = any>(
   return JSON.stringify(data, options.replacer || null, options.spacer || 2)
 }
 
-export async function readFileFromArchive(filename: string) {
-  return await readFile(resolve('archive', filename), 'utf8')
-}
-
-export async function exists(path: string) {
+export async function readJSON(filePath: string) {
+  if (!(await exists(filePath))) {
+    return {}
+  }
   try {
-    await access(path)
-    return true
-  } catch {
-    return false
+    const content = await readFile(filePath, 'utf8')
+    return JSON.parse(content)
+  } catch (err) {
+    console.error(`Error parsing JSON from file ${filePath}:`, err)
+    return {}
   }
 }
 
-export async function readJSONFromArchive(filename: string) {
-  if (!(await exists(resolve('archive', filename)))) return {}
-  return JSON.parse(await readFileFromArchive(filename))
-}
+interface WriteJsonOptions extends JSONStringifyOptions {}
 
-export async function writeFileToArchive(
-  filename: string,
-  fileContent: string,
-) {
-  // Create archive directory if it doesn't exist yet.
-  if (!(await exists(resolve('archive')))) {
-    await mkdir(resolve('archive'))
-  }
-  await writeFile(resolve('archive', filename), fileContent)
-}
-
-export async function writeJSONToArchive(
-  filename: string,
+export async function writeJSON(
+  filePath: string,
   data: any,
-  options: JSONStringifyOptions = {},
+  options: WriteJsonOptions = {},
 ) {
-  await writeFileToArchive(filename, jsonStringify(data, options))
+  const dirname = path.dirname(filePath)
+
+  if (!(await exists(dirname))) {
+    await mkdir(dirname, { recursive: true }) // create directory recursively
+  }
+
+  // check directory exists
+  await writeFile(filePath, `${jsonStringify(data, options)}\n`)
 }

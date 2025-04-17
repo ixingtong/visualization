@@ -5,3 +5,5 @@ export const CONFIG = Object.freeze({
 export const FILE = Object.freeze({
   BILIBILI: 'bilibili.json',
 })
+
+export const DIR_ARCHIVE = 'archive'

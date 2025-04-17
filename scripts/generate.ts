@@ -3,13 +3,14 @@ import process from 'node:process'
 import { consola } from 'consola'
 import dayjs from 'dayjs'
 import pc from 'picocolors'
-import { CONFIG, FILE } from './constants'
+import { CONFIG, DIR_ARCHIVE, FILE } from './constants'
 import { createBilibiliApi } from './fetchers'
-import { readJSONFromArchive, resolve, writeJSONToArchive } from './utils'
+import { readJSON, resolve, writeJSON } from './utils'
 
 export async function bilibiliScript() {
-  const { relationStats: archivedRelationStats = [] } =
-    await readJSONFromArchive(FILE.BILIBILI)
+  const { relationStats: archivedRelationStats = [] } = await readJSON(
+    resolve(DIR_ARCHIVE, FILE.BILIBILI),
+  )
   const latestRelationStat = archivedRelationStats.at(-1)
 
   const bilibiliApi = createBilibiliApi()
@@ -22,7 +23,7 @@ export async function bilibiliScript() {
     archivedRelationStats.pop()
   }
 
-  await writeJSONToArchive(FILE.BILIBILI, {
+  await writeJSON(resolve(DIR_ARCHIVE, FILE.BILIBILI), {
     '//': now.toString(),
     updateAt: now.getTime(),
     relationStats: [
