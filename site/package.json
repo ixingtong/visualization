@@ -8,15 +8,15 @@
     "dev": "vite"
   },
   "dependencies": {
-    "@unocss/reset": "^66.1.0-beta.11",
+    "@unocss/reset": "^66.1.2",
     "svelte-tiny-linked-charts": "^2.2.0"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
-    "svelte": "^5.27.0",
-    "unocss": "^66.1.0-beta.11",
-    "vite": "^6.3.1",
+    "svelte": "^5.31.1",
+    "unocss": "^66.1.2",
+    "vite": "^6.3.5",
     "vite-plugin-pwa": "^1.0.0"
   }
 }
