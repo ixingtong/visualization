@@ -33,6 +33,7 @@
     "pnpm",
     "stefanzweifel",
     "tseslint",
+    "unrs",
     "vmid"
   ],
   "cSpell.allowCompoundWords": true

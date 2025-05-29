@@ -1,8 +1,5 @@
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath, URL } from 'node:url'
-
-const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 /**
  * Resolve a path relative to the current directory
@@ -10,7 +7,7 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url))
  * @returns The resolved path
  */
 export const resolve = (...args: string[]) =>
-  path.resolve(__dirname, '..', ...args)
+  path.resolve(import.meta.dirname, '..', ...args)
 
 /**
  * Check if a file or directory exists
