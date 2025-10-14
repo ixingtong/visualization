@@ -5,6 +5,6 @@
     "mikestead.dotenv",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "oxc.oxc-vscode"
   ]
 }

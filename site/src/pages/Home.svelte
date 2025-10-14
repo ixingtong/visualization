@@ -54,9 +54,9 @@ fetchData()
 </script>
 
 <div class="h-screen w-screen">
-  <div class="absolute left-0 right-0 top-0 items-center justify-between p-4 font-mono md:flex">
+  <div class="font-mono p-4 items-center left-0 right-0 top-0 justify-between absolute md:flex">
     <div class="items-end md:flex">
-      <h1 class="mr-2 text-3xl">
+      <h1 class="text-3xl mr-2">
         <a
           class="hover:color-indigo"
           href="https://space.bilibili.com/401315430"
@@ -65,10 +65,10 @@ fetchData()
           XingTong
         </a>
       </h1>
-      <p class="mt-2 text-lg text-gray-500 md:mt-0">bilibili followers trend</p>
+      <p class="text-lg text-gray-500 mt-2 md:mt-0">bilibili followers trend</p>
     </div>
     <div class="mt-3 md:mt-0">
-      <span class="mr-1 text-gray-400">Last update: </span>
+      <span class="text-gray-400 mr-1">Last update: </span>
       <span class="text-gray-600">
         <a
           class="hover:color-indigo"
@@ -79,9 +79,9 @@ fetchData()
       </span>
     </div>
   </div>
-  <div class="wh-full flex-col-center gap-10">
+  <div class="flex-col-center gap-10 wh-full">
     <div class="flex-col-center">
-      <h2 class="w-full text-right text-lg text-zinc-500 font-medium">Daily</h2>
+      <h2 class="text-lg text-zinc-500 font-medium text-right w-full">Daily</h2>
       <div class="w-screen overflow-auto !md:w-800px">
         <LinkedLabel linked="daily" />
         <!-- svelte-ignore attribute_quoted -->
@@ -102,7 +102,7 @@ fetchData()
     </div>
 
     <div class="flex-col-center">
-      <h2 class="w-full text-right text-lg text-zinc-500 font-medium">Monthly</h2>
+      <h2 class="text-lg text-zinc-500 font-medium text-right w-full">Monthly</h2>
       <div class="w-screen overflow-auto !md:w-800px">
         <LinkedLabel linked="monthly" />
         <!-- svelte-ignore attribute_quoted -->
