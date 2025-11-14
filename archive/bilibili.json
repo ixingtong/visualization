@@ -1,6 +1,6 @@
 {
-  "//": "Thu Nov 13 2025 00:58:57 GMT+0000 (Coordinated Universal Time)",
-  "updateAt": 1762995537688,
+  "//": "Fri Nov 14 2025 00:58:49 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1763081929045,
   "relationStats": [
     {
       "mid": 401315430,
@@ -9120,6 +9120,17 @@
       "fans_effect": null,
       "date": "2025-11-13",
       "ts": 1762995537688
+    },
+    {
+      "mid": 401315430,
+      "following": 70,
+      "whisper": 0,
+      "black": 0,
+      "follower": 1060902,
+      "fans_medal_toast": null,
+      "fans_effect": null,
+      "date": "2025-11-14",
+      "ts": 1763081929045
     }
   ]
 }
