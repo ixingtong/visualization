@@ -1,6 +1,6 @@
 {
-  "//": "Wed Nov 25 2026 06:11:53 GMT+0000 (Coordinated Universal Time)",
-  "updateAt": 1795587113888,
+  "//": "Thu Nov 26 2026 06:03:20 GMT+0000 (Coordinated Universal Time)",
+  "updateAt": 1795673000725,
   "relationStats": [
     {
       "mid": 401315430,
@@ -13256,6 +13256,17 @@
       "fans_effect": null,
       "date": "2026-11-25",
       "ts": 1795587113888
+    },
+    {
+      "mid": 401315430,
+      "following": 90,
+      "whisper": 0,
+      "black": 0,
+      "follower": 1146001,
+      "fans_medal_toast": null,
+      "fans_effect": null,
+      "date": "2026-11-26",
+      "ts": 1795673000725
     }
   ]
 }
